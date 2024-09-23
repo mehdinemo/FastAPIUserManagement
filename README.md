@@ -1,4 +1,16 @@
-# PostgreSQL
+## .env
+
+```
+USER_MANAGEMENT_PROXY=socks5://127.0.0.1:8080
+USER_MANAGEMENT_SECRET_KEY=
+USER_MANAGEMENT_GOOGLE_OAUTH_CLIENT_ID=
+USER_MANAGEMENT_GOOGLE_OAUTH_CLIENT_SECRET=
+USER_MANAGEMENT_DB_NAME=
+USER_MANAGEMENT_DB_USERNAME=
+USER_MANAGEMENT_DB_PASSWORD=
+```
+
+## PostgreSQL
 
 In PostgreSQL, managing databases, users, and tables involves using SQL commands within the PostgreSQL shell (`psql`).
 Below are the most common commands used for these tasks:
