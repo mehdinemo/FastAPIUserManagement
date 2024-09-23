@@ -10,6 +10,23 @@ USER_MANAGEMENT_DB_USERNAME=
 USER_MANAGEMENT_DB_PASSWORD=
 ```
 
+## Generate Secret Key
+
+To generate a secure random secret key for JWT:
+
+1. Directly from the Ubuntu terminal:
+   ```shell
+   openssl rand -hex 32
+   ```
+2. In Python using the `secrets` module:
+   ```python
+   import secrets
+   
+   # Generate a 256-bit (32-byte) secret key
+   secret_key = secrets.token_hex(32)
+   print(f"Your secret key: {secret_key}")
+   ```
+
 ## PostgreSQL
 
 In PostgreSQL, managing databases, users, and tables involves using SQL commands within the PostgreSQL shell (`psql`).
